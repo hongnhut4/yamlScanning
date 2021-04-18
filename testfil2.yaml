@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  database: vnpt
+  databasename: vnpt
+  password: Vnpt@123
+  username: nhutfessional
+kind: ConfigMap
+metadata:
+  annotations:
+    field.cattle.io/creatorId: user-xthsg
+  creationTimestamp: null
+  labels:
+    cattle.io/creator: norman
+  managedFields:
+  - apiVersion: v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:data:
+        .: {}
+        f:database: {}
+        f:databasename: {}
+        f:password: {}
+        f:username: {}
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:field.cattle.io/creatorId: {}
+        f:labels:
+          .: {}
+          f:cattle.io/creator: {}
+    manager: rancher
+    operation: Update
+    time: "2021-04-16T06:09:11Z"
+  name: testnhut123123
+  selfLink: /api/v1/namespaces/nhutfessional/configmaps/testnhut123123
